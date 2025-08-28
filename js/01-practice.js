@@ -296,3 +296,47 @@
 // console.log(`сума чисел кратних 5: ${sum5}`);
 // console.log(`сума чисел кратних 3 і 5: ${sumBoth}`);
 
+
+
+// 24.
+// const N = 20;
+
+// for (let i = 1; i <= N; i += 1) {
+//     if (i % 2 === 0) {
+//         console.log(i);
+//     }
+// }
+
+
+// 25.
+// const N = 100;
+// let sum = 0;
+
+// for (let i = 1; i <= N; i += 1) {
+//     sum += i;
+// }
+// console.log(sum);
+
+
+
+// 26.
+// const number = 8;
+// let result = 0;
+// for (let i = 1; i <= 10; i += 1) {
+//     result = number * i;
+//     console.log(`result `, result);
+// }
+
+
+// 27.
+// const secret = 6;
+// let key = Number(prompt('вгадай число'));
+
+// if (key < secret) {
+//     console.log('менше');
+// } else if (key > secret){
+//     console.log('більше');
+// } else {
+//     console.log('вгадано');
+// }
+
