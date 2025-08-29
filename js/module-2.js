@@ -653,3 +653,29 @@
 //     }
 // }
 // console.log(squareArr);
+
+
+
+
+// const numbers = [4, 9, 2, 7, 5, 8, 1, 6];
+// let maxNumber = numbers[0];
+// let minNumber = numbers[0];
+// let maxIndex = 0;
+// let minIndex = 0;
+
+// for (let i = 0; i < numbers.length; i += 1) {
+//     if (numbers[i] > maxNumber) {
+//         maxNumber = numbers[i];
+//         maxIndex = i;
+//     }
+// }
+
+// for (let i = 0; i < numbers.length; i += 1) {
+//     if (numbers[i] < minNumber) {
+//         minNumber = numbers[i];
+//         minIndex = i;
+//     }
+// }
+
+// console.log(`max: ${maxNumber} at index ${maxIndex}`);
+// console.log(`min: ${minNumber} at index ${minIndex}`);
