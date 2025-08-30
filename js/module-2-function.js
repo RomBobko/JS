@@ -154,3 +154,138 @@
 // console.log(filterNumbers([1, 2, 3, 4, 5], 20, 12, 2, 3, 67, 7));
 // console.log(filterNumbers([123, 245, 343, 4, 12], 20, 12, 4, 3, 67, 7));
 // console.log(filterNumbers([100, 200, 300, 400, 500], 20, 12, 200, 330, 67, 7));
+
+
+
+
+
+
+// const greet = function greet (name) {
+//     console.log(`Hello, ${name}!`);
+// }
+
+// greet('Roman');
+
+
+
+
+
+// const square = function (number) {
+//     return number ** 2;
+// }
+
+// console.log(square(5));
+// console.log(square(10));
+
+
+
+
+
+
+
+// const add = function (a, b) {
+//     let total = a + b;
+//     return total;
+// }
+// console.log(add(3, 7));
+// console.log(add(15, 25));
+
+
+
+
+
+// const isAdult = function (age) {
+//     let message = age >= 18 
+//     ? `ваш вік ${age} - дорослий`
+//     : `ваш вік ${age} - дитина`;
+
+//     return message;
+// }
+// console.log(isAdult(19));
+
+
+
+
+
+// const getMax = function (numbers) {
+//     let maxNumber = numbers[0];
+
+//     for (const number of numbers) {
+//         if (number > maxNumber) {
+//             maxNumber = number;
+//         }
+//     }
+
+//     return maxNumber;
+// }
+
+// console.log(getMax([4, 9, 2, 7]));
+// console.log(getMax([10, 20, 5, 15]));
+
+
+
+// const isEven = function (number) {
+//     return number % 2 === 0;
+// }
+// console.log(isEven(4)); // true
+// console.log(isEven(7)); // false
+
+
+
+
+// const average = function (numbers) {
+//     let total = 0;
+
+//     for (const number of numbers) {
+//         total += number;
+//     }
+
+//     let avg = total / numbers.length;
+
+//     return avg;
+// }
+
+// console.log(average([2, 4, 6]));
+// console.log(average([10, 20, 30, 40]));
+
+
+// const countLetters = function (str, letter) {
+//     let count = 0;
+
+//     for (const char of str) {
+//         if (char === letter) {
+//             count += 1;
+//         }
+//     }
+    
+//     return count;
+// }
+
+// console.log(countLetters("hello world", "l")); // 3
+// console.log(countLetters("javascript", "a")); // 2
+
+
+
+// const grade = function (score) {
+//     let rating = '';
+
+//     if (score >= 90 && score <= 100) {
+//         rating = 'A';
+//     } else if (score >= 80 && score < 90) {
+//         rating = 'B';
+//     } else if (score >= 70 && score < 80) {
+//         rating = 'C';
+//     } else if (score >= 60 && score < 70) {
+//         rating = 'D';
+//     } else {
+//         rating = 'F';
+//     }
+
+//     return rating;
+// }
+
+// console.log(grade(95)); // "A"
+// console.log(grade(82)); // "B"
+// console.log(grade(73)); // "C"
+// console.log(grade(65)); // "D"
+// console.log(grade(50)); // "F"
