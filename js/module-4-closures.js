@@ -90,60 +90,63 @@
 
 
 
-const add = function (a, b, c) {
-    return a + b + c;
-}
+// const add = function (a, b, c) {
+//     return a + b + c;
+// }
 
 
 // якщо параметр 1 то круглі дужки можна опускати
 // якщо менає параметрів то обовязково пусті круглі дужки 
-const addArrow = (a, b, c) => {
-    return a + b + c;
-}
+// const addArrow = (a, b, c) => {
+//     return a + b + c;
+// }
 
 // якщо тільки 1 параметр то можна опустити тіло функції
 // const addArrow = (a, b, c) => a + b + c;
 
-console.log(add(10, 15, 15));
-console.log(addArrow(140, 152, 154));
+// console.log(add(10, 15, 15));
+// console.log(addArrow(140, 152, 154));
 
 
-const fnA = function () {
-    return {
-        a: 5,
-    };
-};
+// const fnA = function () {
+//     return {
+//         a: 5,
+//     };
+// };
 
-console.log(fnA());
+// console.log(fnA());
 
-const fnB = () => ({ a: 10 });
+// const fnB = () => ({ a: 10 });
 
-console.log(fnB());
+// console.log(fnB());
 
 
 
-const filter = (array, test) => {
-    const filteredArray = [];
+// const filter = (array, test) => {
+//     const filteredArray = [];
 
-    for (const element of array) {
-        // console.log(element);
-        const passed = test(element);
+//     for (const element of array) {
+//         // console.log(element);
+//         const passed = test(element);
 
-        if (passed) {
-            filteredArray.push(element);
-        }
-    }
+//         if (passed) {
+//             filteredArray.push(element);
+//         }
+//     }
 
-    return filteredArray;
-}
+//     return filteredArray;
+// }
 
 // const smallerThan3 = (value) => value <= 3;
-const greaterThan4 = (value) => value >= 4;
-const firstArray = [1, 2, 3, 4, 5];
-const secondArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const greaterThan4 = (value) => value >= 4;
+// const firstArray = [1, 2, 3, 4, 5];
+// const secondArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-const r1 = filter(firstArray, value => value <= 3);
-const r2 = filter(secondArray, greaterThan4);
+// const r1 = filter(firstArray, value => value <= 3);
+// const r2 = filter(secondArray, greaterThan4);
 
-console.log(r1);
-console.log(r2);
+// console.log(r1);
+// console.log(r2);
+
+
+
